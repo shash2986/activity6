@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: orangered;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .container {
+      padding: 16px;
+      background-color: rgb(255, 153, 0);
+    }
+    
+    input[type=text], input[type=password] {
+      width: 16%;
+      padding: 6px;
+      margin: 5px 0 2px 0;
+      display: inline-block;
+      border: none;
+      background: #faf8f8;
+    }
+    
+    input[type=text]:focus, input[type=password]:focus {
+      background-color: rgb(167, 140, 170);
+      outline: none;
+    }
+    
+    hr {
+      border: 1px solid #131212;
+      margin-bottom: 25px;
+    }
+    
+    .registerbtn {
+      background-color: #b66a13;
+      color: white;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    
+    .registerbtn:hover {
+      opacity: 1;
+    }
+    
+    a {
+      color: blue;
+    }
+
+    </style>
+</head>
+<body>
+
+<form action="/action_page.php">
+  <div class="container">
+    <h1><center>RVU cricket Tournament 2023</center></h1>
+    <h1><center>Registration form</center></h1>
+    <p><b>Venue: <u>RVCE Cricket ground</u></b></p>
+    <hr>
+
+    </p><label for="name"><b>Name</b></label>
+    <input type="text" name="name" id="name" required></p>
+
+    <p></p><label for="school"><b>School of education</b></label>
+    <input type="School of education"  name="School of education" id="School of education" required></p>
+
+    <p></p><label for="Phone no."><b>Phone no.</b></label>
+    <input type="Phone no."  name="Phone no." id="Phone no." required></p>
+
+    <p></p><label for="Email"><b>Email</b></label>
+    <input type="Email"  name="Email" id="Email" required></p>
+
+    <p></p><label for="Date of birth"><b>Date of birth</b></label>
+    <input type="Date of birth" name="Date of birth" id="Date of birth" required></p>
+
+    <p></p><label for="Are you physically fit(in all aspects)"><b>Are you physically fit(in all aspects)</b></label>
+    <input type="Are you physically fit(in all aspects)" name="Are you physically fit(in all aspects)" id="Are you physically fit(in all aspects)" required></p>
+
+    <p></p><label for="Any Relevant medical conditions e.g. Asthma etc:"><b>Any Relevant medical conditions e.g. Asthma etc:</b></label>
+    <input type="Any Relevant medical conditions e.g. Asthma etc:"  name="Any Relevant medical conditions e.g. Asthma etc:" id="Any Relevant medical conditions e.g. Asthma etc:" required></p>
+    <hr>
+    <h1>Terms & conditions</h1>
+    <p><b>1. Only university students are allowed.</b></p><p><b>2. Umpire decision will be final and any arguemnet will lead to disqualify from Tournament.</b></p><p><b>3. Last date for registration 14/01/2023.</b></p><p><b>4. All matches will played with Red Cork Ball.</b></p><p><b>5. Tournament fees Rs.300.</b></p><p><b>6. Any further query please contact management.</b></p>
+
+    <p><b>By filling this form you agree to our </b><a href="#">Terms & conditions</a>.</p>
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+
+</body>
+</html>
+
